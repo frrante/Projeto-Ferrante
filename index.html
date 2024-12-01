@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <title>Missão Galáctica</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/spaceship.png" alt="Nave espacial decolando">
+            <p>Você embarca na nave espacial **Aurora**, pronta para explorar a galáxia em busca de um novo lar para a humanidade. Qual será seu primeiro destino?</p>
+            <button class="btn-proximo" data-proximo="1">Visitar a Nebulosa Azul</button>
+            <button class="btn-proximo" data-proximo="2">Explorar o Planeta Vermelho</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Na Nebulosa Azul, você encontra cristais flutuantes com energia misteriosa. Uma mensagem antiga aparece.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar os cristais</button>
+            <button class="btn-proximo" data-proximo="4">Seguir para um sistema próximo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Planeta Vermelho, você descobre ruínas alienígenas que podem conter pistas sobre um planeta habitável.</p>
+            <button class="btn-proximo" data-proximo="5">Explorar as ruínas</button>
+            <button class="btn-proximo" data-proximo="6">Retornar à nave</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Os cristais brilham intensamente e te transportam para um planeta oculto cheio de vida! Sua missão é um sucesso.</p>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Ao ignorar os cristais, você se perde em um campo de asteroides e a missão falha.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Nas ruínas, você descobre um mapa estelar indicando um planeta habitável. A missão segue com sucesso!</p>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>De volta à nave, você fica sem combustível em órbita. Sua aventura termina aqui.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
